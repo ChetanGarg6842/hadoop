@@ -18,7 +18,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class HadoopAnalysis {
-    
+    // we have made this hadoop analysis program for student data analysis
     public static class AnalysisMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
         
         private Text categoryReligionKey = new Text();
